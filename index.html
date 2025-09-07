@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <title>AutoAudit - Professional Vehicle History Reports & Ticket Appeal Letters</title>
+    <meta name="title" content="AutoAudit - Professional Vehicle History Reports & Ticket Appeal Letters" />
+    <meta name="description" content="Get comprehensive DVLA vehicle history reports and professional council ticket appeal letters. Trusted by over 50,000 UK drivers with 85% success rate." />
+    <meta name="keywords" content="vehicle history check, DVLA check, parking ticket appeal, council ticket dispute, UK vehicle report, MOT check, tax status, professional appeal letters" />
+    <meta name="author" content="AutoAudit" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://autoaudit.net/" />
+    <meta property="og:title" content="AutoAudit - Professional Vehicle History Reports & Ticket Appeal Letters" />
+    <meta property="og:description" content="Get comprehensive DVLA vehicle history reports and professional council ticket appeal letters. Trusted by over 50,000 UK drivers with 85% success rate." />
+    <meta property="og:image" content="https://autoaudit.net/og-image.svg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="AutoAudit" />
+    <meta property="og:locale" content="en_GB" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://autoaudit.pro/" />
+    <meta property="twitter:title" content="AutoAudit - Professional Vehicle History Reports & Ticket Appeal Letters" />
+    <meta property="twitter:description" content="Get comprehensive DVLA vehicle history reports and professional council ticket appeal letters. Trusted by over 50,000 UK drivers with 85% success rate." />
+    <meta property="twitter:image" content="https://autoaudit.pro/og-image.svg" />
+    <meta property="twitter:creator" content="@AutoAudit" />
+    
+    <!-- Additional Meta Tags -->
+    <meta name="theme-color" content="#ea580c" />
+    <meta name="msapplication-TileColor" content="#ea580c" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="AutoAudit" />
+    
+    <!-- Force unregister service workers to prevent caching issues -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(registrations => {
+          for (const registration of registrations) {
+            registration.unregister();
+          }
+        });
+        
+        // Clear all caches
+        if ('caches' in window) {
+          caches.keys().then(cacheNames => {
+            cacheNames.forEach(cacheName => {
+              caches.delete(cacheName);
+            });
+          });
+        }
+      }
+    </script>
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://autoaudit.net/" />
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "AutoAudit",
+      "url": "https://autoaudit.net",
+      "logo": "https://autoaudit.net/Asset 4.png",
+      "description": "Professional vehicle history reports and expert ticket appeal letters for UK drivers",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "GB",
+        "addressRegion": "England"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+44-20-7946-0958",
+        "contactType": "customer service",
+        "availableLanguage": "English"
+      },
+      "sameAs": [
+        "https://twitter.com/AutoAudit",
+        "https://facebook.com/AutoAudit"
+      ],
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Basic Vehicle Check",
+          "price": "4.99",
+          "priceCurrency": "GBP",
+          "description": "Essential DVLA vehicle information"
+        },
+        {
+          "@type": "Offer",
+          "name": "Comprehensive Vehicle Report",
+          "price": "14.99",
+          "priceCurrency": "GBP",
+          "description": "Complete vehicle intelligence package"
+        },
+        {
+          "@type": "Offer",
+          "name": "Professional Dispute Letter",
+          "price": "9.99",
+          "priceCurrency": "GBP",
+          "description": "Expert-crafted council ticket appeal letter"
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

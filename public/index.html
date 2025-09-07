@@ -1,0 +1,30 @@
+@@ .. @@
+   </head>
+   <body>
+     <div id="root"></div>
++    
++    <!-- Hidden Netlify Form for email functionality -->
++    <form name="dispute-letter-email" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" id="name" />
+      <input type="email" name="email" id="email" />
+      <input type="text" name="subject" id="subject" />
+      <textarea name="message" id="message"></textarea>
+      <input type="text" name="ticket-number" id="ticket-number" />
+      <textarea name="letter-content" id="letter-content"></textarea>
+      <input type="text" name="phone" id="phone" />
+      <textarea name="address" id="address"></textarea>
++    </form>
++    
+    <!-- Hidden Netlify Form for vehicle report emails -->
+    <form name="vehicle-report-email" netlify netlify-honeypot="bot-field" hidden>
+      <input type="email" name="email" id="email" />
+      <input type="text" name="name" id="name" />
+      <input type="text" name="subject" id="subject" />
+      <input type="text" name="registration" id="registration" />
+      <input type="text" name="report-type" id="report-type" />
+      <textarea name="report-content" id="report-content"></textarea>
+    </form>
+    
+     <script type="module" src="/src/main.tsx"></script>
+   </body>
+ </html>

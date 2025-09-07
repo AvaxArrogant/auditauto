@@ -1,0 +1,14 @@
+<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 565.14 297.31">
+  <g id="company_name">
+    <text transform="translate(30.98 111.39)" font-family="ITCAvantGardePro-BoldObl, 'ITC Avant Garde Gothic Pro Bold'" font-size="127.96" font-style="oblique" font-weight="700">
+      <tspan x="0" y="0" letter-spacing="-.06em">A</tspan>
+      <tspan x="89.83" y="0" letter-spacing="-.03em">u</tspan>
+      <tspan x="166.98" y="0" letter-spacing="-.05em">t</tspan>
+      <tspan x="205.37" y="0" letter-spacing="-.04em">o</tspan>
+      <tspan x="285.98" y="0" fill="#f60" letter-spacing="-.09em">.</tspan>
+    </text>
+    <text transform="translate(0 229.63)" font-family="ITCAvantGardePro-BoldObl, 'ITC Avant Garde Gothic Pro Bold'" font-size="127.96" font-style="oblique" font-weight="700" letter-spacing="-.04em">
+      <tspan x="0" y="0">CHECK</tspan>
+    </text>
+  </g>
+</svg>
