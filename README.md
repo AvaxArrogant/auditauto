@@ -159,3 +159,5 @@ For technical support or questions:
 - Email: support@autoaudit.net
 - Documentation: [Link to docs]
 - Issues: [Link to issue tracker]
+
+// Trigger Netlify build: trivial change
